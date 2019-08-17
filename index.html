@@ -44,7 +44,7 @@ div.WordSection1
 <p class=MsoNormal>规则<span lang=EN-US>(&quot;</span>以 下 是<span lang=EN-US>&nbsp;
 BiliBili&nbsp;&nbsp; shadowGrrr&nbsp; </span>复 活 的 源 氏 超 级 跳 和 爬 墙 三 段 跳 通 用 游 戏
 代 码<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>版本<span lang=EN-US>
-V4.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>获取最新版<span
+V5.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>获取最新版<span
 lang=EN-US> ---&gt;&nbsp; owgenji.com&quot;)</span></p>
 
 <p class=MsoNormal><span lang=EN-US>{</span></p>
@@ -452,7 +452,7 @@ lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=E
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
 lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3)
-&gt;= 7;</span></p>
+&gt;= 8;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
 
@@ -517,7 +517,7 @@ lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=E
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
 lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 2)
-&lt; 50;</span></p>
+&lt; 49.999;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
 
@@ -562,17 +562,21 @@ lang=EN-US>;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
 
-<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
-lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3)
-== 2;</span></p>
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>或<span
+lang=EN-US>(</span>比较<span lang=EN-US>(</span>与<span lang=EN-US>(</span>与<span
+lang=EN-US>(</span>比较<span lang=EN-US>(</span>数组中的值<span lang=EN-US>(</span>玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3), ==, 2), </span>比较<span
+lang=EN-US>(</span>数组中的值<span lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span
+lang=EN-US>, U), 2), &lt;, 49.999)), </span>比较<span lang=EN-US>(</span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 1),
+==, 9)), ==, </span>真<span lang=EN-US>),</span></p>
 
-<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
-lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 2)
-&lt; 50;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
-lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 1)
-== 9;</span></p>
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>比较<span
+lang=EN-US>(</span>与<span lang=EN-US>(</span>比较<span lang=EN-US>(</span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3),
+==, 2), </span>比较<span lang=EN-US>(</span>数组中的值<span lang=EN-US>(</span>玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 2), &gt;, 59.001)), ==, </span>真<span
+lang=EN-US>)) == </span>真<span lang=EN-US>;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
 
@@ -696,7 +700,7 @@ lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=E
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>施加推力<span
 lang=EN-US>(</span>事件玩家<span lang=EN-US>, </span>数组中的值<span lang=EN-US>(</span>玩家变量<span
 lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 6), 50, </span>至地图<span
-lang=EN-US>, </span>合并相反运动<span lang=EN-US>);</span></p>
+lang=EN-US>, </span>取消相反运动<span lang=EN-US>);</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>在索引处设置玩家变量<span
 lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 1, 8);</span></p>
@@ -707,8 +711,9 @@ lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 1, 8);</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
 
-<p class=MsoNormal>规则<span lang=EN-US>(&quot;</span>【特殊情况】<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>【游戏引擎出错 速度太快】<span lang=EN-US>&quot;)</span></p>
+<p class=MsoNormal>规则<span lang=EN-US>(&quot;</span>【特殊情况<span lang=EN-US>2</span>】<span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>【游戏引擎出错 速度太快】<span
+lang=EN-US>&quot;)</span></p>
 
 <p class=MsoNormal><span lang=EN-US>{</span></p>
 
@@ -739,11 +744,15 @@ lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=E
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
 lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3)
-== 7;</span></p>
+== 8;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
 lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 1)
-!= 4;</span></p>
+!= 5;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 1)
+!= 7;</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
 
@@ -754,15 +763,81 @@ lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=E
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>在索引处设置玩家变量<span
-lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 6, </span>乘<span lang=EN-US>(</span>矢量<span
-lang=EN-US>(X</span>方向分量<span lang=EN-US>(</span>面朝方向<span lang=EN-US>(</span>事件玩家<span
-lang=EN-US>)), </span>减<span lang=EN-US>(Y</span>方向分量<span lang=EN-US>(</span>面朝方向<span
-lang=EN-US>(</span>事件玩家<span lang=EN-US>)), 0.250), Z</span>方向分量<span
-lang=EN-US>(</span>面朝方向<span lang=EN-US>(</span>事件玩家<span lang=EN-US>))),
-1000));</span></p>
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 6, </span>速度<span lang=EN-US>(</span>事件玩家<span
+lang=EN-US>));</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>在索引处设置玩家变量<span
-lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 1, 7);</span></p>
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 1, 11);</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal>规则<span lang=EN-US>(&quot;</span>【特殊情况<span lang=EN-US>2</span>】<span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>【复活超级跳】<span lang=EN-US>&quot;)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>{</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>事件</p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>持续<span
+lang=EN-US> - </span>每名玩家<span lang=EN-US>;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>双方<span
+lang=EN-US>;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>全部<span
+lang=EN-US>;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>条件</p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 1)
+== 11;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 3)
+&gt;= 8;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>动作</p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>在索引处设置玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 4, </span>速率<span lang=EN-US>(</span>事件玩家<span
+lang=EN-US>));</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>施加推力<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, </span>矢量<span lang=EN-US>(X</span>方向分量<span
+lang=EN-US>(</span>加<span lang=EN-US>(</span>数组中的值<span lang=EN-US>(</span>玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 4), </span>数组中的值<span lang=EN-US>(</span>玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 5))), Y</span>方向分量<span
+lang=EN-US>(</span>数组中的值<span lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span
+lang=EN-US>, U), 5)), Z</span>方向分量<span lang=EN-US>(</span>加<span lang=EN-US>(</span>数组中的值<span
+lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span lang=EN-US>,</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U),
+4), </span>数组中的值<span lang=EN-US>(</span>玩家变量<span lang=EN-US>(</span>事件玩家<span
+lang=EN-US>, U), 5)))), </span>数组中的值<span lang=EN-US>(</span>玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U), 6), </span>至地图<span lang=EN-US>, </span>取消相反运动<span
+lang=EN-US>);</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>在索引处设置玩家变量<span
+lang=EN-US>(</span>事件玩家<span lang=EN-US>, U, 1, 12);</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p>
 
